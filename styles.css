@@ -1,0 +1,62 @@
+/* ---- Base layout ---- */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* ---- Headings ---- */
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  margin-top: 1.8em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 4px;
+}
+
+/* ---- Navigation ---- */
+nav {
+  margin: 20px 0 40px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+/* ---- Links ---- */
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Lists ---- */
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ---- Footer spacing ---- */
+p:last-child {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
